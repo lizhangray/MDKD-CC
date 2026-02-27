@@ -11,6 +11,7 @@
 **MDKD** enables high-precision crowd analysis under low-visibility conditions by leveraging multidimensional distillation to maintain robust performance with significantly reduced computational overhead.
 
 <img src = "./assets/Introduction.png" >
+
 ## Datasets
 
 | Crowd Dataset | Link                                                                           |
