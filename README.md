@@ -11,105 +11,21 @@
 **MDKD** enables high-precision crowd analysis under low-visibility conditions by leveraging multidimensional distillation to maintain robust performance with significantly reduced computational overhead.
 
 <img src = "./assets/Introduction.png" >
-
 ## Datasets
 
 | Crowd Dataset | Link                                                                           |
 | ------------- | ------------------------------------------------------------------------------ |
-| Hazy-SHA/B    | [[**BaiduNetdisk**](https://pan.baidu.com/s/1z4FUxa9ttJPek0uBYPZG8w?pwd=0000)] |
-| DH-SHA/B      | [[**BaiduNetdisk**](https://pan.baidu.com/s/1me25lACXuo9oOsVGTRK_4w?pwd=0000)] |
-| Hazy-SHRGBD   | [[**BaiduNetdisk**](https://pan.baidu.com/s/1jLQZe8oPYxQyvdqiiIoXng?pwd=0000)] |
-| Rainy-SHRGBD  | [[**BaiduNetdisk**](https://pan.baidu.com/s/1r60HylC3G34APbCiLIOQMw?pwd=0000)] |
-| Hazy-JHU      | [[**BaiduNetdisk**](https://pan.baidu.com/s/1WtXSec3WAT2lEtJ6zVCw0A?pwd=0000)] |
-| Rainy-JHU     | [[**BaiduNetdisk**](https://pan.baidu.com/s/1eMpAwFuyDrg0Ke43FgT_gw?pwd=0000)] |
-| Snowy-JHU     | [[**BaiduNetdisk**](https://pan.baidu.com/s/1yYqZW-7gk7SZZbgDPevvEQ?pwd=0000)] |
-| Dark-RGBT-CC  | [[**BaiduNetdisk**](https://pan.baidu.com/s/1ztgjiYs3j0DT3asNKMZyWQ?pwd=0000)] |
+| Hazy-SHA/B    | [[**BaiduNetdisk**](https://pan.baidu.com/s/1NgvZxRjZZd5amSWZIRi0Sw?pwd=8gti)] |
+| DH-SHA/B      | [[**BaiduNetdisk**](https://pan.baidu.com/s/1BYZTK7G2wwSVRZylDW-HuQ?pwd=yfqz)] |
+| Hazy-SHRGBD   | [[**BaiduNetdisk**](https://pan.baidu.com/s/1o5O24J0cqUTkkGzXnsPgXQ?pwd=41kg)] |
+| Rainy-SHRGBD  | [[**BaiduNetdisk**](https://pan.baidu.com/s/1WTZiuLgvNyROaAyvNMBSJA?pwd=tirj)] |
+| Hazy-JHU      | [[**BaiduNetdisk**](https://pan.baidu.com/s/1HZGRoby76Hk0oofdxdefyw?pwd=x9fm)] |
+| Rainy-JHU     | [[**BaiduNetdisk**](https://pan.baidu.com/s/1YT5__19yb2GFlBy7YFYR7A?pwd=cdgm)] |
+| Snowy-JHU     | [[**BaiduNetdisk**](https://pan.baidu.com/s/1KLWbV8YHM8mD_Qfy8iBMag?pwd=d6w8)] |
+| Dark-RGBT-CC  | [[**BaiduNetdisk**](https://pan.baidu.com/s/1rw6goGRhJZ_WAV1mhpBl0Q?pwd=5tkn)] |
 
 ## Example
-The results of crowd counting and localization: 
-<table>
-  <tr>
-    <td align="center" style="writing-mode: vertical-rl; transform: rotate(180deg);"><p><b>P2PNet</b></p></td>
-    <td align="center"> <img src = "./assets/DH-SHB/P2PNet.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Rainy-JHU/P2PNet.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Snowy-JHU/P2PNet.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Dark-RGBT-CC/P2PNet.jpg" width="280" height="160"  > </td>
-  </tr>
-  <tr>
-    <td align="center" style="writing-mode: vertical-rl; transform: rotate(180deg);"><p><b>PET</b></p></td>
-    <td align="center"> <img src = "./assets/DH-SHB/PET.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Rainy-JHU/PET.jpg"width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Snowy-JHU/PET.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Dark-RGBT-CC/PET.jpg" width="280" height="160"  > </td>
-  </tr>
-  <tr>
-    <td align="center" style="writing-mode: vertical-rl; transform: rotate(180deg);"><p><b>APGCC</b></p></td>
-    <td align="center"> <img src = "./assets/DH-SHB/APGCC.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Rainy-JHU/APGCC.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Snowy-JHU/APGCC.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Dark-RGBT-CC/APGCC.jpg" width="280" height="160"  > </td>
-  </tr>
-  <tr>
-    <td align="center" style="writing-mode: vertical-rl; transform: rotate(180deg);"><p><b>IRG-Crowd</b></p></td>
-    <td align="center"> <img src = "./assets/DH-SHB/IRG-Crowd.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Rainy-JHU/IRG-Crowd.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Snowy-JHU/IRG-Crowd.jpg" width="280" height="160"  > </td>
-    <td align="center"> <img src = "./assets/Dark-RGBT-CC/IRG-Crowd.jpg" width="280" height="160"  > </td>
-  </tr>
-  <tr>
-    <td align="center" style="writing-mode: vertical-rl; transform: rotate(180deg);"><p><b>Rep-Crowd</b></p></td>
-    <td align="center"> <img src = "./assets/DH-SHB/Rep-Crowd.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Rainy-JHU/Rep-Crowd.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Snowy-JHU/Rep-Crowd.jpg" width="280" height="160"  > </td>
-    <td align="center"> <img src = "./assets/Dark-RGBT-CC/Rep-Crowd.jpg" width="280" height="160"  > </td>
-  </tr>
-  <tr>
-    <td align="center" style="writing-mode: vertical-rl; transform: rotate(180deg);"><p><b>Ground-Truth</b></p></td>
-    <td align="center"> <img src = "./assets/DH-SHB/GT.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Rainy-JHU/GT.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Snowy-JHU/GT.jpg" width="280" height="160"  > </td>
-    <td align="center"> <img src = "./assets/Dark-RGBT-CC/GT.jpg" width="280" height="160"  > </td>
-  </tr>
-  <tr>
-    <td align="center" style="writing-mode: vertical-rl; transform: rotate(180deg);"><p><b>IRG Restored Image</b></p></td>
-    <td align="center"> <img src = "./assets/DH-SHB/SR.png" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Rainy-JHU/SR.png" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Snowy-JHU/SR.png" width="280" height="160"  > </td>
-    <td align="center"> <img src = "./assets/Dark-RGBT-CC/SR.png" width="280" height="160"  > </td>
-  </tr>
-  <tr>
-    <td align="center"><p><b></b></p></td>
-    <td align="center"><p><b>DH-SHB</b></p></td>
-    <td align="center"><p><b>Rainy-JHU</b></p></td>
-    <td align="center"><p><b>Snowy-JHU</b></p></td>
-    <td align="center"><p><b>Dark-RGBT-CC</b></p></td>
-  </tr>
-</table>
-
-The effect of non-uniform fog simulation algorithm:
-<table>
-  <tr>
-    <td align="center"> <img src = "./assets/Addhaze/clear/img_0144.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Addhaze/center/img_0114.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Addhaze/rgb/img_0114.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Addhaze/RA-Depth/img_0114.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Addhaze/Ours/img_0114.jpg" width="280" height="160" > </td>
-  </tr>
-  <tr>
-    <td align="center"> <img src = "./assets/Addhaze/clear/img_0167.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Addhaze/center/img_0167.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Addhaze/rgb/img_0167.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Addhaze/RA-Depth/img_0167.jpg" width="280" height="160" > </td>
-    <td align="center"> <img src = "./assets/Addhaze/Ours/img_0167.jpg" width="280" height="160" > </td>
-  </tr>
-  <tr>
-    <td align="center"><p><b>Clear Image</b></p></td>
-    <td align="center"><p><b>Center Diffusion</b></p></td>
-    <td align="center"><p><b>Haze Mask</b></p></td>
-    <td align="center"><p><b>RA-Depth</b></p></td>
-    <td align="center"><p><b>Ours</b></p></td>
-  </tr>
-</table>
+<img src = "./assets/VisResult_1.png" >
 
 ## Usage
 
@@ -224,4 +140,5 @@ Please cite this paper in your publications if it is helpful for your tasks.
   doi = {https://doi.org/10.1016/j.patcog.2026.113339},
   url = {https://www.sciencedirect.com/science/article/pii/S0031320326003043}
 }
+
 ```
